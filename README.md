@@ -41,10 +41,12 @@ yarn add https://github.com/softwarebistro/Kioskmode.git
 
 ## Stay in touch
 
-<!-- - Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
+ - Author - [Douglas Froes](https://github.com/DouglasFroes)
+<!--
 - Website - [https://nestjs.com](https://nestjs.com/)
 - Twitter - [@nestframework](https://twitter.com/nestframework) -->
 
 ## License
 
----
+Software Bistro is [MIT licensed](LICENSE).
+
