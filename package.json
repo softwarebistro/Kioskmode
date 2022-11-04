@@ -20,13 +20,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/<your_github_handle>/rtn-kioskmode",
+  "repository": "https://github.com/softwarebistro/Kioskmode",
   "author": "Douglas Froes douglassantosfroes@gmail.com (https://github.com/douglasfroes)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/<your_github_handle>/rtn-kioskmode/issues"
+    "url": "https://github.com/softwarebistro/Kioskmode/rtn-kioskmode/issues"
   },
-  "homepage": "https://github.com/<your_github_handle>/rtn-kioskmode#readme",
+  "homepage": "https://github.com/softwarebistro/Kioskmode/rtn-kioskmode#readme",
   "devDependencies": {},
   "peerDependencies": {
     "react": "*",
