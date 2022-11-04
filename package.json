@@ -1,0 +1,43 @@
+{
+  "name": "rtn-kioskmode",
+  "version": "0.0.1",
+  "description": "Add numbers with Turbo Native Modules",
+  "react-native": "js/index",
+  "source": "js/index",
+  "files": [
+    "js",
+    "android",
+    "ios",
+    "rtn-kioskmode.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "keywords": [
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "repository": "https://github.com/<your_github_handle>/rtn-kioskmode",
+  "author": "Douglas Froes douglassantosfroes@gmail.com (https://github.com/douglasfroes)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/<your_github_handle>/rtn-kioskmode/issues"
+  },
+  "homepage": "https://github.com/<your_github_handle>/rtn-kioskmode#readme",
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "RTNKioskmodeSpec",
+    "type": "modules",
+    "jsSrcsDir": "js",
+    "android": {
+      "javaPackageName": "com.rtnkioskmode"
+    }
+  }
+}
