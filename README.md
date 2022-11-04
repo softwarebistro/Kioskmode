@@ -16,28 +16,38 @@ yarn add https://github.com/softwarebistro/Kioskmode.git
 ## Use the app
 
 
-```bash
-  import kioskmode from 'rtn-kioskmode/js/NativeKioskmode'
-```
 
-```bash
-  RTNCalculator.startKioskMode()
-```
+  Import the `kioskmode` component from `rtn-kioskmode/js/NativeKioskmode` and use it like so:
 
-```bash
-  kioskmode.closeApp();
-```
+  ```jsx
+    import React, { useEffect } from 'react';
+    import kioskmode from 'rtn-kioskmode/js/NativeKioskmode'
 
-```bash
-  RTNCalculator.stopKioskMode()
-```
+    const App = () => {
+   
+        useEffect(()=>{
+            kioskmode.startKioskMode()
+        },[])
+   
+      ...
+    }
+  ```
 
 
+  Methods:
+  ```ts
+    kioskmode.checkPermissions() //
+    
+    kioskmode.startKioskMode() // inita kiosk mode
+    
+    kioskmode.stopKioskMode() // 
+    
+    kioskmode.closeApp() //
+  ```
 
 
 ## Support
-
-<!-- Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support). -->
+  not support ios
 
 ## Stay in touch
 
